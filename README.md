@@ -1,13 +1,13 @@
 # Python-DSA
 
-## Day 1
+## Basics
 ### Basic Python concepts
 #### Input and Output
 #### Data Types: String, integers, float, boolean
 #### Conditional Statement: if-else
 #### Nested Conditional Statement
 
-## Day 1.1
+## Basics 2
 ### Data Structures
 #### List
 #### Tuples
@@ -16,3 +16,7 @@
 ### Loops: while, for
 ### Functions
 ### Recursion function
+
+## OOPS
+#### class and object
+#### Constructor
