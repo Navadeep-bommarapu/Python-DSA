@@ -2,18 +2,17 @@
 
 ## Day 1
 ### Basic Python concepts
-
 #### Input and Output
-    Basic input function "input()" 
-
-#### Data Types
-    -String
-    -Integers
-    -Float
-    -Boolean
-
-#### Conditional Statement
-    if-else Statement
-
+#### Data Types: String, integers, float, boolean
+#### Conditional Statement: if-else
 #### Nested Conditional Statement
-    Nested if-else statement i.e, using if-else statement in if-else statement
+
+## Day 1.1
+### Data Structures
+#### List
+#### Tuples
+#### Dictionary
+#### Nested Dictionary
+### Loops: while, for
+### Functions
+### Recursion function
