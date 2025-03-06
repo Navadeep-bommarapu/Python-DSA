@@ -8,7 +8,6 @@ print(lst[1]) # indexing
 lst[1]='bommarapu' # Mutable
 print(lst)
 
-# # List Slicing
 print(lst[1:3]) 
 print(lst[1: ])
 print(lst[:2])
