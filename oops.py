@@ -1,21 +1,5 @@
 # OOPS
 # class and object
-<<<<<<< HEAD
-# class Student(): # class
-#     name = "navadeep"
-#     age = 20
-    
-# s1 = Student() # object
-# print(s1.name)
-# print(s1.age)
-
-# s2 = Student() # object
-# print(s2.name)
-# print(s2.age)
-
-# Constructor (__init__ function)
-class Student():
-=======
 class Student: # class
     name = "navadeep"
     age = 20
@@ -30,7 +14,6 @@ print(s2.age)
 
 # Constructor (__init__ function)
 class Student:
->>>>>>> 0a48baa (DSA)
     def __init__(self,name, marks): # constructor / self is the current instance of the class
         self.name = name
         self.marks = marks
@@ -39,9 +22,6 @@ s1 = Student("navadeep", 90) # object
 print(s1.name, s1.marks)
 
 s2 = Student("arjun", 87) # object
-<<<<<<< HEAD
-print(s2.name, s2.marks)
-=======
 print(s2.name, s2.marks)
 
 # Attributes
@@ -150,4 +130,4 @@ a1.showBalance()
 print(a1.debit(300))
 print(a1.credit(200))
 a1.showBalance()
->>>>>>> 0a48baa (DSA)
+

@@ -22,22 +22,14 @@
 ### Constructor
 ### Attributes
 ### Methods
-<<<<<<< HEAD
-### Static methods
-=======
 ### staticmethods decorator
->>>>>>> 0a48baa (DSA)
 ### del keyword
 ### Private attributes and methods
 ### Abstraction
 ### Encapsulation
 ### Inheritance: Single, Multi-level, Multiple
-<<<<<<< HEAD
-### 
-### 
-=======
 ### super() method
 ### classmethod decorator
 ### property decorator
 ### Polymorphism: dunder function
->>>>>>> 0a48baa (DSA)
+
