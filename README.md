@@ -33,3 +33,6 @@
 ### property decorator
 ### Polymorphism: dunder function
 
+## Lists : HackerRank questions
+### List comprehension
+### Nested lists
