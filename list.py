@@ -43,8 +43,3 @@ order their names alphabetically and print each name on a new line."""
 
 # for student in second_grade_student:
 #     print(student)  
-
-lst=[20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5]
-
-
-print(lst.count())
