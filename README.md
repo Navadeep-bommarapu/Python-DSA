@@ -36,3 +36,8 @@
 ## Lists : HackerRank questions
 ### List comprehension
 ### Nested lists
+
+## Patterns
+### Square patterns
+### Semi pyramid 
+### Reverse semi pyramid
