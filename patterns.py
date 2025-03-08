@@ -1,9 +1,9 @@
 # Patterns in python
 
-# for i in range(5):
-#     for j in range(5):
-#         print("*", end="")
-#     print()
+for i in range(5):
+    for j in range(5):
+        print("*", end="")
+    print()
 # output:
 # *****
 # *****
@@ -12,10 +12,10 @@
 # *****
 
 
-# for i in range(5):
-#     for j in range(i+1):
-#         print("*", end="")
-#     print()
+for i in range(5):
+    for j in range(i+1):
+        print("*", end="")
+    print()
 # output:
 # *
 # **
@@ -24,11 +24,11 @@
 # *****
 
 
-# n = 5
-# for i in range(1,n+1):
-#     for j in range(1,i+1):
-#         print(j, end='')
-#     print()
+n = 5
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(j, end='')
+    print()
 # output:
 # 1
 # 12
@@ -37,11 +37,11 @@
 # 12345
 
 
-# n = 5
-# for i in range(1,n+1):
-#     for j in range(1,i+1):
-#         print(i, end="")
-#     print()
+n = 5
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(i, end="")
+    print()
 # output:
 # 1
 # 22
@@ -50,11 +50,11 @@
 # 55555
 
 
-# n = 5
-# for i in range(n,0,-1):
-#     for j in range(i):
-#         print("*", end="")
-#     print()
+n = 5
+for i in range(n,0,-1):
+    for j in range(i):
+        print("*", end="")
+    print()
 # Output:
 # *****
 # ****
@@ -62,8 +62,4 @@
 # **
 # *
 
-n = 5
-for i in range(n,0,-1):
-    for j in range(n):
-        print(" ", end="")
-    print("*")
+
