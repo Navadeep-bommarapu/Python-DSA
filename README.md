@@ -41,3 +41,8 @@
 ### Square patterns
 ### Semi pyramid 
 ### Reverse semi pyramid
+### Pyramid
+### Reverse Pyramid
+### Diamond
+### Semi Diamond
+### Binary right triangle
