@@ -46,3 +46,13 @@
 ### Diamond
 ### Semi Diamond
 ### Binary right triangle
+### Two semi traingle
+### Sequencial right triangle
+### Alphabetical right triangle
+### Reverse alphabetical right triangle
+### Row-vice alphabetical right triangle
+### Alphabetical pyramid right triangle
+### Right triangle with the reverse alphabetical order
+### Hollow diamond
+### Hour Glass pattern
+### Hollow square
