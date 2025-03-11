@@ -55,7 +55,7 @@ result = palindrome(3030)
 print(result)
 
 
-# Armstrong Number
+# # Armstrong Number
 def armstrong_num(n):
     temp = n
     add = 0
@@ -101,7 +101,18 @@ def is_prime(n):
             return False
     return True        
        
-result = is_prime(90)
+       
+def is_prime(n):
+    count = 0
+    for i in range(1,n+1):
+        if n % i == 0:
+            count+=1
+        
+    if count > 2:
+        return False
+    else:
+        return True
+result = is_prime(4)
 print(result)     
                                 
                             
