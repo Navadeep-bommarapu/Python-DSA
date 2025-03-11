@@ -66,3 +66,5 @@
 ### Armstrong Number
 ### Print all divisor
 ### Prime number 
+### Greatest Common Divisor
+### Greatest Common Divisor: euclidean algorithm
