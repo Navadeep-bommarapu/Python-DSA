@@ -56,3 +56,13 @@
 ### Hollow diamond
 ### Hour Glass pattern
 ### Hollow square
+
+
+## Math Problem
+### Count digits
+### Reverse a number
+### Check the digit in num can divisible by num 
+### Checking palindrome
+### Armstrong Number
+### Print all divisor
+### Prime number 
