@@ -30,7 +30,6 @@ def count_digit(num):
             count+=1
         temp = int(temp/10)
     print("The number of digits :",count)
-
 count_digit(5555)
 
 # Checking palindrome
@@ -40,7 +39,69 @@ def palindrome(n):
         return True
     else:
         return False
-        
-result = palindrome(303)
+
+def palindrome(n): # Another solution
+    temp = n
+    rev = 0
+    while temp > 0:
+        last = temp % 10
+        temp = int(temp/10)
+        rev = (rev * 10) + last
+    if n == rev:
+        return True
+    else:
+        return False        
+result = palindrome(3030)
 print(result)
-# Output: True
+
+
+# Armstrong Number
+def armstrong_num(n):
+    temp = n
+    add = 0
+    while temp > 0:
+        last = temp % 10
+        temp = int(temp/10)
+        add = add + (last ** 3)
+    if add == n:
+        return f"{n} is the armstrong number"
+    else:
+        return f"{n} is not the armstrong number"
+
+result = armstrong_num(153)
+print(result)
+
+# Print all divisor
+def divisor(n):
+    for i in range(1,n+1):
+        if n % i == 0:
+            print(i)
+            
+import math
+def divisor(n): # Another solution
+    num = []
+    s = int(math.sqrt(n))
+    for i in range(1,s+1):
+        if n % i == 0:
+            num.append(i)
+            if n/i != i:
+                num.append(int(n/i))
+    num.sort()
+    return num
+result = divisor(50)
+print(result)
+
+
+# Prime number      
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2,n):
+        if n % i == 0:
+            return False
+    return True        
+       
+result = is_prime(90)
+print(result)     
+                                
+                            
